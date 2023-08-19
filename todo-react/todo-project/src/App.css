@@ -1,0 +1,97 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #333;
+  background-image: url("./public/blue.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.app {
+  max-width: 630px;
+  margin: 0px auto 300px;
+  background-color:#efefef;
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+
+h1 {
+  padding-bottom: 10px;
+  text-align: center;
+  border-bottom: solid #333 2px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button{
+  background-color: #333974;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 55px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.5s;
+  margin-right: 10px;
+}
+
+button:hover {
+  opacity: 1.9;
+}
+
+.complete {
+  background-color: #5cb85c;
+}
+
+.remove {
+  background-color: #d9534f ;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+ }
+
+ input,select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+ }
+
+ .titulo-form {
+  text-align: center;
+  border-top: solid #333 1px;
+  padding-top: 10px;
+ }
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  
+}
+.todo {
+  background-color: #fff ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
